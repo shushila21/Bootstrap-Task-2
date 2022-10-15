@@ -1,0 +1,15 @@
+{
+  "name": "task-2---bootstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch --no-source-map scss/style.scss scss/main.css"
+  },
+  "author": "Shushila Budhathoki",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "sass": "^1.55.0"
+  },
+  "description": ""
+}

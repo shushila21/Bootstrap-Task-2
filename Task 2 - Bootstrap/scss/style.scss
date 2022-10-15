@@ -1,0 +1,113 @@
+@import "./abstracts/variables.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Macondo&family=Roboto&display=swap');
+
+.container {
+    // padding: 123px 113px;
+    margin-bottom: 1496px;
+
+
+    .card {
+        height: 171px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 4px 8px 24px rgba(151, 145, 145, 0.25);
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+
+        p.card-text {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            text-align: center;
+            color: #666666;
+
+        }
+
+        img.icon {
+            position: absolute;
+            width: 24px;
+            height: 24.08px;
+            top: 20.06px;
+        }
+    }
+
+
+
+    h1.content-heading {
+        width: 458px;
+        font-family: 'Nunito';
+        font-weight: 700;
+        font-size: 24px;
+        // line-height: 36px;
+        letter-spacing: -0.015em;
+        color: #666666;
+        font-style: normal;
+    }
+
+    p.content-text {
+        position: absolute;
+        width: 458px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .card-border-date {
+        position: absolute;
+        right: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #666666;
+
+    }
+
+    .date {
+        position: absolute;
+        left: 5px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        color: #8F8F8F;
+    }
+
+    .time {
+        color: #666666;
+        position: absolute;
+        height: 14px;
+        right: 10px;
+        bottom: 20px;
+        font-weight: 300;
+    }
+
+
+    .footer {
+        position: absolute;
+        width: 1349px;
+        height: 56px;
+        left: 0px;
+        top: 2844px;
+        background: rgba(2, 53, 97, 0.16);
+
+        & .content-heading {
+            position: absolute;
+            height: 21px;
+            right: 280px;
+            margin-top: 20px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+
+        }
+    }
+}
